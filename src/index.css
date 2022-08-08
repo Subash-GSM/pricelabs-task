@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.map-container {
+  height: 400px;
+}
+
+#root
+  > div
+  > div
+  > div.ant-col.ant-col-16
+  > div
+  > div.mapboxgl-canvas-container.mapboxgl-interactive.mapboxgl-touch-drag-pan.mapboxgl-touch-zoom-rotate
+  > div
+  > svg {
+  display: none !important;
+}
+
+#root
+  > div
+  > div
+  > div.ant-col.ant-col-12
+  > div
+  > div.mapboxgl-canvas-container.mapboxgl-interactive.mapboxgl-touch-drag-pan.mapboxgl-touch-zoom-rotate
+  > div
+  > svg {
+  display: none !important;
+}
