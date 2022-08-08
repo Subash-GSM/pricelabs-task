@@ -4,7 +4,7 @@ import { RESPONSE_DATA } from '../utils/Constants';
 import axios from 'axios';
 
 const getPropertyListFunc = async (data) => {
-  try {
+//   try {
     return RESPONSE_DATA;
 //     const response = await axios.post(
 //       'https://www.vrbo.com/serp/g',
