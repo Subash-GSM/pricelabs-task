@@ -6,17 +6,17 @@ import axios from 'axios';
 const getPropertyListFunc = async (data) => {
   try {
     return RESPONSE_DATA;
-    const response = await axios.post(
-      'https://www.vrbo.com/serp/g',
-      data.payload
-    );
-    console.log(response.data);
-    return response.data
-  } catch (e) {
-    throw {
-      message: e.message,
-    };
-  }
+//     const response = await axios.post(
+//       'https://www.vrbo.com/serp/g',
+//       data.payload
+//     );
+//     console.log(response.data);
+//     return response.data
+//   } catch (e) {
+//     throw {
+//       message: e.message,
+//     };
+//   }
 
 
 };
